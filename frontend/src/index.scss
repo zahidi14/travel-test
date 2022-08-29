@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+$GrayishBlue: hsl(217, 19%, 38%);
+$DarkGrayish:hsl(217, 19%, 24%);
+$DarkBlue: hsl(218, 23%, 16%);
+body{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    border:0;
+    font-weight: 800;
+    font-family: 'Abel', sans-serif;
+    scroll-behavior: smooth;
+  
+}
+
+  body > #root > div {
+    height: 100vh;
+  }

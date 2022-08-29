@@ -1,0 +1,64 @@
+
+.bookingFlow {
+ 
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    ul {
+        padding-left: 0px;
+        .a{display: flex;
+            align-items: center;
+            line-height: 5px;
+        }
+        li {
+            list-style: none;
+            width: auto;
+            float: left;
+            // border: solid #abdde6;
+            display: flex;
+            justify-content: space-between;
+            padding:10px;
+            background-color:rgb(6, 25, 112);
+            border-radius: 5px;
+            div{
+                h3 {
+                    color: #f0f0f0;
+                }
+            }
+        }
+        .active {
+            background-color:rgb(167, 222, 253) !important;
+            div{
+                h3 {
+                    color: #474747;
+                }
+            }
+        }
+        div{
+            h3.title {
+                vertical-align: middle;
+                margin:10px 10px;
+            }
+        }
+    }
+    .circle {
+        background-color: rgba(144, 161, 235, 0.596);
+        color: #434a55;
+        height: 40px;
+        border-radius: 50%;
+        overflow: hidden;
+        -moz-border-radius: 50%;
+        -webkit-border-radius: 50%;
+        width: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        .num{
+            margin: auto;
+        }
+    }
+}
+
